@@ -45,7 +45,7 @@ class BankAccount:
         if type(self.hero) is type(other.hero):
             return self._balance + other._balance
         else:
-            return "Ошибка: Нельзя сложить счета героев разных классов!"
+            return "Ошибка: Нельзя сложть счета героев разных классов!"
 
     def __eq__(self, other):
         return type(self.hero) is type(other.hero) and self.hero.lvl == other.hero.lvl
@@ -62,7 +62,7 @@ acc3 = BankAccount(warrior, 4500, "dsafg0000", "Mbank")
 print(acc1)
 print(acc2)
 print("Банк:", acc1.get_bank_name())
-print("Бонус за уровень:", acc1.bonus_for_level(), "SOM")
+print("Бонус за урвень:", acc1.bonus_for_level(), "SOM")
 print("Сумма счетов двух магов:", acc1 + acc2)
 print("Сумма мага и воина:", acc1 + acc3)
 print("Mage1==Mage2?", acc1 == acc2)

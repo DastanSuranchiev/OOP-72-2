@@ -54,6 +54,8 @@ class BankAccount:
 mage1 = MageHero("Merlin", 78, 100, 150)
 mage2 = MageHero("Gandalf", 56, 100, 230)
 warrior = WarriorHero("Conan", 100, 120, 45)
+
+
 mage1.action()
 warrior.action()
 acc1 = BankAccount(mage1, 50000, "qwer1234", "Componion")

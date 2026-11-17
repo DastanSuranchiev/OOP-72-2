@@ -2,7 +2,7 @@ from faker import Faker
 # faker это генератор вымышленных данных
 # name() это метод библиотки faker котрый генерирует полное имя
 # email() генерирует почту
-# age генерирует возраст
+# random_int() генерирует число в районе заданых границ min и max
 rus = Faker("ru_RU")
 eng = Faker("en_US")
 for i in range(10):
